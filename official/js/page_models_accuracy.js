@@ -98,7 +98,7 @@ function initial_diverse_contexts() {
 }
 
 function load_qa_truths() {
-  $.get(current_hosting_url + "php/demo/php/DATA.php", function (data) {
+  $.get(current_hosting_url + "php/demo/php/DATA2.php", function (data) {
     x = 0;
     while (x < data.indexOf("<&questions&>")) {
       str_questions += data[x];
@@ -214,12 +214,14 @@ function confusion_matrix_properties() {
   document.getElementsByClassName("confusion-tile")[1].style.borderRight =
     "none";
   document.getElementsByClassName("confusion-tile")[1].style.background = "red";
+  document.getElementsByClassName("confusion-tile")[1].style.color = "white";
   document.getElementsByClassName("confusion-tile")[2].style.borderBottom =
     "none";
   document.getElementsByClassName("confusion-tile")[2].style.borderLeft =
     "none";
   document.getElementsByClassName("confusion-tile")[2].style.background =
     "green";
+  document.getElementsByClassName("confusion-tile")[2].style.color = "white";
   document.getElementsByClassName("confusion-tile")[3].style.borderBottom =
     "none";
   document.getElementsByClassName("confusion-tile")[3].style.borderRight =
@@ -341,9 +343,57 @@ function get_models() {
         }
         x = "<&numphrases&>".length + data.indexOf("<&numphrases&>");
         while (x < data.length) {
-          raw_indexes += data[x];
+          raw_numphrases += data[x];
           x++;
         }
+
+        indexes_set = raw_indexes.split("<,>");
+        arr_colors = [];
+        color_results =
+          `<div style="background-color: ` +
+          color_translation(indexes_set[0] / raw_numphrases) +
+          `;"></div>`;
+        arr_colors.push(color_translation(indexes_set[0] / raw_numphrases));
+        for (i = 1; i < indexes_set.length; i++) {
+          color_results +=
+            `<div style="background-color: ` +
+            color_translation(indexes_set[i] / raw_numphrases) +
+            `;"></div>`;
+          arr_colors.push(color_translation(indexes_set[i] / raw_numphrases));
+        }
+        spanning_contexts = raw_contexts.split("<,>");
+        contexts_results =
+          `<div class="model-2-content row"><div class="col-lg-2"><span style="color: ` +
+          arr_colors[0] +
+          `;">context[` +
+          indexes_set[0] +
+          `]: </span></div><div class="col-lg-10"><span style="color: ` +
+          arr_colors[0] +
+          `;">` +
+          spanning_contexts[0] +
+          `</span></div></div>`;
+        for (i = 1; i < spanning_contexts.length; i++) {
+          contexts_results +=
+            `<div class="model-2-content row"><div class="col-lg-2"><span style="color: ` +
+            arr_colors[i] +
+            `;">context[` +
+            indexes_set[i] +
+            `]: </span></div><div class="col-lg-10"><span style="color: ` +
+            arr_colors[i] +
+            `;">` +
+            spanning_contexts[i] +
+            `</span></div></div>`;
+        }
+        console.log(contexts_results);
+        document.getElementsByClassName("model-set")[
+          answering_question_num
+        ].innerHTML =
+          `<div class="model-1">` +
+          color_results +
+          `</div><br><strong>Contexts: </strong><br><div class="model-2">` +
+          contexts_results +
+          `</div>`;
+        // console.log(color_results);
         // console.log(raw_tfidf);
         // console.log(arr_arr_answers[answering_question_num]);
         answering_question(
@@ -396,10 +446,14 @@ function translate_models() {
       }
     }
   }
-  document.getElementsByClassName("confusion-tile")[0].innerHTML = true_p;
-  document.getElementsByClassName("confusion-tile")[1].innerHTML = false_p;
-  document.getElementsByClassName("confusion-tile")[2].innerHTML = true_n;
-  document.getElementsByClassName("confusion-tile")[3].innerHTML = false_n;
+  document.getElementsByClassName("confusion-tile")[0].innerHTML =
+    "TRUE POSITIVE: " + true_p;
+  document.getElementsByClassName("confusion-tile")[1].innerHTML =
+    "FALSE POSITIVE: " + false_p;
+  document.getElementsByClassName("confusion-tile")[2].innerHTML =
+    "TRUE NEGATIVE: " + true_n;
+  document.getElementsByClassName("confusion-tile")[3].innerHTML =
+    "FALSE NEGATIVE: " + false_n;
   document.getElementById("success-rate-outcome").innerText =
     Math.floor((hit / (hit + miss)) * 100, 2) + "%";
 }
@@ -468,4 +522,38 @@ function answering_question(text, parameter_input) {
       }
     }
   );
+}
+
+function color_translation(input) {
+  //input a number divided by numphrases
+  percent = Math.floor(input * 100, 2);
+  if (percent == 0) {
+    return "rgb(0,0,0)";
+  } else if (percent <= 16.67) {
+    return "rgb(" + Math.round((percent / 100) * 1530) + ",0,0)";
+  } else if (percent <= 33.33) {
+    return "rgb(255," + (Math.round((percent / 100) * 1530) - 255) + ",0)";
+  } else if (percent <= 50) {
+    return "rgb(" + Math.round(((percent / 100) * 1530) % 255) + ",255,0)";
+  } else if (percent <= 66.67) {
+    if (Math.round(((percent / 100) * 1530) % 255) + 255 <= 255) {
+      return (
+        "rgb(0,255," + (Math.round(((percent / 100) * 1530) % 255) + 255) + ")"
+      );
+    } else {
+      return "rgb(0,255," + Math.round(((percent / 100) * 1530) % 255) + ")";
+    }
+  } else if (percent <= 83.33) {
+    return "rgb(0," + Math.round(((percent / 100) * 1530) % 255) + ",255)";
+  } else if (percent <= 100) {
+    if (Math.round(((percent / 100) * 1530) % 255) + 255 <= 255) {
+      return (
+        "rgb(" + (Math.round(((percent / 100) * 1530) % 255) + 255) + ",0,255)"
+      );
+    } else {
+      return "rgb(" + Math.round(((percent / 100) * 1530) % 255) + ",0,255)";
+    }
+  } else {
+    return "rgba(0,0,0,0)";
+  }
 }
