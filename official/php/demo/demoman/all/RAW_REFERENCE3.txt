@@ -1,0 +1,480 @@
+Basic
+ Scalar
+ A quantity which has a magnitude, but no direction.
+ Vector
+ A quantity which has both a magnitude and a direction.
+ Mass (m) (kg)
+ The quantity of matter in a body regardless of its volume or of any forces acting on it.
+ Weight (w) (N)
+ The measure of the force of gravity on a body.
+Linear motion
+ Displacement (s) (m)
+ Distance travelled in a given time.
+ Velocity (v/u) (m/s)
+ Rate of change of displacement with respect to time.
+ Acceleration (a) (𝑚/𝑠
+2
+)
+ Rate of change of velocity with respect to time.
+Force
+ Force (f) (N)
+ Anything which causes something to accelerate.
+ Momentum (p) (𝑘𝑔𝑚/𝑠)
+ The product of a body’s velocity and mass.
+Pressure
+ Density (ρ) (kg/𝑚3
+)
+ Mass per unit volume.
+ Pressure (p) (Pa)
+ Force per unit area.
+ Volume (V) (𝑚3
+)
+ The amount of space that a substance or object occupies.
+Physics definitions | 2
+Moments
+ Lever
+ A ridged body free to rotate about a fixed point known as a fulcrum.
+ Moment
+ The magnitude of the force multiplied by the perpendicular distance from the axis to the 
+force.
+ Couple
+ A pair of equal parallel forces that turn in opposite directions.
+Work, Energy and Power.
+ Work (W) (J / Nm)
+ The energy given to a body by a force moving it through a displacement in the same 
+direction as the applied force.
+ Energy (E) (J)
+ The ability to do work.
+ Potential Energy (E) (J)
+ Energy due to position or conformation.
+ Kinetic Energy (E) (J)
+ Energy due to movement
+ Power (P) (w)
+ The rate the work is done. / The rate of energy conversion. 
+ Efficiency (Eff) (%)
+ The comparison of energy put in to useful energy returned.
+Circular Motion
+ Radian (ϴ) (rad)
+ Unit of angle derived from an arc with an equal length to its radius.
+ Linear speed (v) (m/s)
+ The distance travelled along the arc with respect to time.
+ Tangential speed (v) (m/s)
+ Linear speed tangential to the circle.
+ Angular velocity (ω) (rad/s)
+ The rate of change to angle with respect to time.
+ Period (T) (s)
+ The time taken to complete one revolution.
+ Centripetal Force (F) (N)
+ The force directed towards the centre of a circle that is necessary to keep a body moving in 
+a circular path.
+ Centripetal Acceleration (a) (𝑚/𝑠
+2
+)
+ The acceleration towards the centre of a circle that holds a body in orbit.
+Physics definitions | 3
+ Geostationary Orbit
+ An orbit which takes place in the same plane of rotation as the planet and has an equal 
+angular velocity. It only works for 1 height.
+Simple Harmonic Motion
+ SHM
+ A form of periodic motion in which the acceleration is always:
+ Directed towards the equilibrium.
+ Proportional to the displacement from the equilibrium.
+ Oscillating
+ To move or swing back and forth with a steady rhythm.
+ Cycle
+ The movement from one extreme to the other and back again.
+ Frequency (f) (Hz)
+ Cycles per second.
+ Period (T) (s)
+ The time taken to complete one cycle.
+ Amplitude
+ The maximum displacement either side of the equilibrium.
+ Damping
+ An effect that reduces the amplitude of oscillations over time.
+Optics
+ Incident ray
+ The light ray coming into the mirror/lens.
+ Reflected/Refracted ray
+ The light ray leaving the mirror/lens.
+ Normal
+ The perpendicular line drawn at the point of incidence of light.
+ Angles of incidence and reflection.
+ The angles between the rays and the normal. 
+ Real Image
+ Image caused by the intersection of real light rays.
+ Virtual Image 
+ Image caused by the apparent intersection of light rays. 
+ Parallax
+ The difference in the apparent position of an object viewed through two different lines of 
+sight.
+ Centre of Curvature (c)
+ The theoretical centre of the sphere from which a curved mirror is taken.
+ Principle Axis
+ The line joining the optical centre of the mirror to C.
+Physics definitions | 4
+ Pole (p)
+ The point where the principle axis intersects the mirror.
+ Focal Point (f)
+ Halfway between C and the pole.
+ Optical Distances
+ Object Distance (u) (m)
+ Image Distance (v) (m)
+ Focal Length (f) (m)
+Plane mirror Concave 
+mirror
+Convex 
+mirror
+Convex lens Concave 
+lens
+Object distance 
+(u)
+Always positive
+Image distance 
+(v)
+Always 
+positive
+Positive if 
+real, negative 
+if virtual.
+Always 
+negative
+Positive if 
+real, negative 
+if virtual
+Always 
+negative
+Focal length (f) Always 
+positive
+positive negative positive negative
+Magnification 
+(m) 
+Positive for upright, negative for inverted
+ Refraction
+ The bending of light at a boundary as it passes from 1 medium to another.
+ Total Internal Reflection
+ When a light ray, travelling from a denser medium to a rarer medium at an angle greater 
+than the critical angle, is completely reflected.
+ Critical Angle
+ The angle in a denser medium that results in an angle of 90 degrees in the rarer medium.
+ Mirages
+ Superior
+ Cool air on warm air.
+ Inferior
+ Warm air on cool air.
+ Lens Power (P) (𝑚−1
+)
+ The ability to converge or diverge rays.
+Heat
+ Heat (Q) (J)
+ A form of energy that causes a rise in temperature.
+ Temperature ()(k/c)
+ The measure of the effect of heat energy on a body
+ Thermometric property
+ A physical property that changes measurably and repeatedly with temperature change.
+Physics definitions | 5
+ Heat capacity (C) (J/K)
+ The heat required to change somethings temperature by 1 kelvin.
+ Specific heat capacity (c) (J/kg/K)
+ The amount of heat required to change 1 kg of a substance by 1 kelvin.
+ Latent heat (L) (J)
+ The heat required to change a substance from 1 form to another without a change in 
+temperature.
+ Specific latent heat (l) (J/kg)
+ The heat required to change 1 kg a substance from 1 form to another without a change in 
+temperature.
+ …of vaporisation: gasliquid
+ …of fusion: liquidsolid
+ Conduction
+ The transfer of heat energy in a solid by passing on kinetic energy from molecule to 
+molecule.
+ Convection
+ The transfer of heat energy by circulation of the heated parts of a liquid or gas.
+ Radiation
+ The transfer of heat energy as electromagnetic waves, without the need for a medium.
+ Infrared waves 
+ Solar constant
+ The amount of solar energy hitting 1𝑚2 of the earth’s atmosphere every second.
+ U-value
+ The amount of heat energy that can be transmitted across 1𝑚2 of a material every second, 
+so long as there is a temperature difference of 1K each side of the material.
+WAVES
+ Frequency (f) (Hz)
+ Amount of wave fronts passing through a point every second. (pitch)
+ Amplitude 
+ The maximum displacement of the mean position. (loudness)
+ Wavelength
+ Distance between wave fronts.
+ Mechanical Waves
+ Require a medium to travel through and physically disrupt that medium.
+ Electromagnetic Waves
+ Do not require a physical medium but cause electric and magnetic disruption.
+ Travelling Waves
+ A wave in motion through a medium without causing an overall displacement of the 
+medium.
+ Longitudinal Waves
+ Wave vibrates parallel to the direction of propagation.
+Physics definitions | 6
+ Transverse Waves
+ Wave vibrates perpendicular to the direction of propagation.
+ Diffraction
+ The spreading out of a wave as it moves through a gap or around an obstacle.
+ Interference
+ When waves, in the same medium, combine to form a resultant amplitude.
+ Constructive
+ When waves combine to form a greater amplitude.
+ Destructive
+ When waves combine to form a lesser amplitude.
+ Polarisation
+ When a wave is confined to a single plane.
+ Standing Waves
+ Waves of the same frequency and amplitude that constructively and destructively interfere 
+to form a wave pattern in a confined space.
+ Node
+ Part of a standing wave which does not move.
+ Antinode
+ Part of a standing wave which moves the most.
+ The Doppler Effect
+ The relative change in frequency due to the relative motion of the source and observer.
+ Fundamental Frequency (f) (Hz)
+ The largest standing wave.
+ Sound Quality
+ The number of overtones/harmonics present.
+ Overtones/Harmonics
+ Integer multiples of the fundamental frequency.
+ 1st harmonic = f
+ 1st overtone = 2f
+ Intensity (I) (W/𝑚2
+)
+ The amount of sound energy passing through 1𝑚2 perpendicular to the direction of 
+propagation.
+ Resonance
+ The transfer of energy between 2 bodies with the same natural frequency.
+ Dispersion
+ The separation of light into its constituent colours.
+ Colours
+ Primary
+ The three colours that combine to make white light.
+ Secondary
+ Combining 2 primary colours in equal amounts.
+ Complementary
+ Secondary colours that combine with primary colours to create white.
+Physics definitions | 7
+Electricity
+ Conductor
+ A medium that allows electric charge to flow easily through it.
+ Insulator
+ A medium that does not allow electric charge to flow easily through it.
+ Electric field lines
+ Show the direction and strength of a force due to a positive charge in the field.
+ Electric field strength
+ The force that a 1 coulomb charge would experience at a point in an electric field.
+ Potential difference / voltage (V) (v)
+ The work required to move a charge of 1 coulomb from 1 point to another.
+ Unless specified the second point is ground.
+ Electromotive Force EMF (E) (v)
+ Similar to voltage but created by induction.
+ Capacitor
+ A device capable of storing an electrical charge.
+ Current (I) (A)
+ A flow of charge though a conductor
+ Electrons, Ions, Holes
+ Series
+ A circuit where there is no split.
+ Parallel
+ A circuit where there is a split.
+ Resistance (R) (Ω)
+ The ratio of potential difference across an object to the current flowing through it.
+ Potential divider
+ A circuit structure that divides a voltage between 2 sub circuits. 
+ Resistivity
+ The potential a material has for resistance.
+ Length
+ Cross-sectional area
+ Material
+ Wheatstone bridge
+ A circuit used to find the value of an unknown resistor via ratios.
+ Meter bridge
+ Semiconductors
+ Materials with a resistivity between that of a good conductor and a good insulator
+ Semiconductor conduction
+ Intrinsic
+ Conduction due to electrons and holes in a pure semiconductor material
+ Extrinsic
+ Increased conductivity due to the controlled addition of impurities
+Physics definitions | 8
+ Doping
+ The controlled addition of impurities to a semiconductor to increase conductivity
+ Semiconductor types
+ P-type
+ Silicon with doped boron to increase the amount of holes in the semiconductor. There is 
+a surplus of free positive charge carrying particles, yet the net charge is still 0.
+ N-type
+ Silicon with doped phosphorus to increase the amount of free electrons in the 
+semiconductor. There is a surplus of free negative charge carrying particles, yet the net 
+charge is still 0.
+ P-N diode / junction
+ When a P and an N type semiconductor are joined together they form a single 
+semiconductor which allows current to only flow in 1 direction.
+ Depletion layer
+ The region in the middle of a P-N diode / junction that is almost void of charge carrying 
+particles due to a voltage being created.
+ Magnetic field
+ A region in space in which an isolated north pole would experience a force.
+ Magnetic field lines
+ The direction of the field is the direction of the force experienced by an isolated north pole.
+ Magnetic Flux Density (B) (T)
+ The magnetic flux density at a point in space is a vector quantity, whose magnitude is equal 
+to the magnitude of the force experienced, by a current carrying conductor, of 1 meter with 
+a current of 1 amp flowing through it and whose direction is the direction of the force 
+experienced by an isolated north pole at that point in space. 
+ 𝐹 = 𝐵𝐼𝑙
+ 𝐹 = 𝐵(1)(1): 𝐹 = 𝐵
+ 1 Ampere
+ 1 amp is the constant current when 2 straight infinitely long parallel conductors are 1 meter 
+apart, in a vacuum, with negligible cross-sectional area; experience a force between them 
+of 2 𝑥 10−7 N/m.
+ Magnetic flux (Φ) (Wb)
+ Number of magnetic field lines passing through a surface.
+ Electromagnetic induction
+ When a change in magnetic field creates an EMF in a conductor which in turn produces a 
+current.
+ Mutual induction
+ A change in magnetic field in 1 coil produces an EMF in another adjacent coil. 
+ Self-induction
+ A change in magnetic field in 1 coil produces a back EMF in itself. 
+ Transformer 
+ A device which can change the voltage of alternating current.
+ Step up / Step down
+Physics definitions | 9
+ Domestic electricity
+ Ring circuit
+ Plug sockets
+ Normal appliances
+ 2 rings, live and neutral (decreases heating)
+ Radial circuit
+ Large currents
+ Large appliances
+ Lighting circuit
+ Lights connected in parallel
+ Safety devices
+ Fuses
+ A thin strip of metal with a known melting point, excessive current melts the strip 
+breaking circuit, it is a 1-time use.
+ Miniature Circuit Breaker MCB
+ Limits maximum current. Uses magnetic properties of current and breaks circuit if 
+current becomes too high. It can be reset and re used. 
+ Residual Current Device RCD
+ Compares outgoing to incoming current. It will break the circuit if there is a difference 
+between the 2.
+ Current is not lost in circuits, voltage is.
+ Relay
+ A solenoid that is used to trigger a mechanical process.
+ Rectification
+ The conversion of AC into DC using a diode or full bridge rectifier.
+ LED
+ A semiconductor that emits light as holes and free electrons combine. 
+ Transistor
+ A semiconductor component with 3 connections that is capable of being used as a rapid 
+switch between high and low current for computing logic. 
+ Base: acts as a gate, alters output.
+ Collector: main input, stopped by Base.
+ Emitter: output.
+ Logic gate
+ A device comprised of transistors, capable of performing binary decisions in an electronic 
+circuit, according to Boolean functions.
+ Boolean logic
+ Logic that uses combinations of 2 possibilities. 
+ High / Low
+ True / False
+ 1 / 0
+ Logic gates
+ And gate
+ Will only have a high output if all inputs are high.
+Physics definitions | 10
+ Or gate
+ Will have a high output if any input is high.
+ Not gate
+ Will have an output opposite to the input
+ High - > Low
+ Low - > High
+MODERN PHYSICS
+ The Electron Volt (W) (eV)
+ The amount of energy lost or gained in moving an electron through a potential difference of 
+1V.
+ Thermionic-emission
+ The emission of electrons from the surface of a hot metal.
+ The Photoelectric Effect / Photo-emission
+ The emission of electrons from the surface of a metal when light of a suitable frequency 
+falls on it. 
+ Threshold Frequency (F0) (Hz)
+ The minimum frequency for photo-emission to take place. 
+ The Work Function
+ The minimum energy of a photon required for photo-emission to take place. 
+ Activity (A) (s-1
+)
+ The number of nuclei decaying per second.
+ Half Life (T1/2) (s)
+ The time taken for half a radioactive sample to decay. 
+ Radioactive Decay
+ The spontaneous disintegration of a nucleus with the emission of 1 or more types of 
+radiation. 
+ Nuclear Fission
+ The splitting of a large nucleus into 2 similarly sized nuclei with the release of neutrons and 
+energy. 
+ Nuclear Fusion
+ The joining of 2 smaller nuclei into a larger nucleus with the emission of energy.
+ Critical mass
+ The minimum mass of fissile material required to sustain a chain reaction.
+ The Mole / Avogadro’s Number
+ A mole of any substance has as many particles as there are atoms in 12g of C6
+12
+.
+Physics definitions | 11
+PARTICLE PHYSICS
+ Transmutation
+ The forced change in protons of a nucleus to produce a different element.
+ The 4 fundamental forces
+ Gravitation
+ A force which attracts all matter, it is extremely weak in comparison but its range is 
+limitless, it effects all particles with mass. 
+ Electromagnetic
+ A force which interacts with all charged particles, it is the second strongest force with a 
+limitless range, it is used in chemical bonding. 
+ Weak Nuclear
+ A force relating to beta decay that has a range of a nucleon, it is the second weakest 
+force and effects all particles with mass.
+ Strong Nuclear
+ A force which binds a nucleus together, it is the strongest force and has a range of a 
+large nucleus (uranium 238), it effects all hadrons. 
+ Antimatter
+ Matter composed of antiparticles which are particles identical to their counterpart in every 
+way however charge is opposite.
+ A positron is an antiparticle of an electron with a charge of 1.
+ Accelerators
+ Linear
+ Accelerates charged particles using very large potential differences in a straight line. 
+ Circular
+ Accelerates charged particles using magnets to maintain circular motion and pulsed 
+electrical current to accelerate the particles.
+ Pair Production
+ The simultaneous creation of a particle and its antiparticle from electromagnetic energy 
+incident on a surface.
+ Pair Annihilation
+ The combining of a particle and its antiparticle resulting in their destruction and the 
+emission of electromagnetic energy.
+ The Particle Zoo
+ Fermions
+ All particles with mass
+ Leptons (electron)
+ Fundamental fermions that do not experience the strong nuclear force.
+ Hadrons 
+ Fermions which experience all 4 forces.
+ Baryons (proton - uud, neutron - dud)
+ Hadrons formed from 3 quarks
+ Mesons (pion - ud, kaon - us)
+ Hadrons formed from a quark and an anti-quark
+Physics definitions | 12
+ Quarks (up, down; strange, charm; top, bottom)
+ A fundamental particle with a non-integer charge, combine in integer charges to form 
+hadrons

@@ -8,7 +8,7 @@ ini_set('max_execution_time', '0');
 
 $time = microtime(true);
 
-$file_content = file_get_contents("../demoman/mapping/demoman@email.com.txt");
+$file_content = file_get_contents("../demoman/mapping/REFERENCE4.txt");
 
 // echo $file_content;
 

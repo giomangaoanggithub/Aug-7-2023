@@ -7,12 +7,13 @@ include "foreign/prevent_unwantedunicode.php";
 include "nlp_step2_text_cleaning.php";
 
 $question = $_POST["find_question"];
+$num_model = $_POST["find_set_model"];
 // $question = "What is Centrifugal force?";
 
 
 $question = array($question);
 
-$files_list = scandir("demo/demoman/models");
+$files_list = scandir("demo/demoman/models/model_reference_$num_model");
 $cleansed_file_list = array();
 
 // print_r($files_list);
@@ -32,6 +33,6 @@ for($i = 0; $i < count($stemmed_question); $i++){
 }
 
 if(in_array($filename.".txt", $cleansed_file_list)){
-    echo file_get_contents("demo/demoman/models/$filename.txt");
+    echo file_get_contents("demo/demoman/models/model_reference_$num_model/$filename.txt");
 } else {echo "none";}
 ?>

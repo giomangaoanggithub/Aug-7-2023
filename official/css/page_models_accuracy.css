@@ -49,6 +49,7 @@ button {
   padding-top: 33vh;
   color: white;
   font-size: 15vh;
+  cursor: wait;
 }
 
 #show-loading {
@@ -175,4 +176,16 @@ button {
 .model-2-content:hover {
   background-color: rgb(80, 80, 80);
   color: white;
+}
+
+#three-references button {
+  background-color: #5cdb95;
+  color: white;
+  border-radius: 20px;
+  border: solid 3px #4fb77e;
+}
+
+.model-3 {
+  width: 100%;
+  height: 100%;
 }
