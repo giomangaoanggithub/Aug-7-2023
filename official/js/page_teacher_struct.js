@@ -26,6 +26,7 @@ var extracted_score = "";
 var max_score = "";
 var recent_selection = 0;
 var eta = "";
+var curr_updating_hps = 0;
 
 function load_teacher_data() {
   $.get(current_hosting_url + "php/js-request/count_eta.php", function (data) {

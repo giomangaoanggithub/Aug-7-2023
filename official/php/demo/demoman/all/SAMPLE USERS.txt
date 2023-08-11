@@ -1,0 +1,9 @@
+TEACHER:
+Mr. Jaime, jaime@email.com
+
+STUDENT1:
+Bobstud, bobstud@email.com
+
+STUDENT2:
+Jenny, jenny@email.com
+

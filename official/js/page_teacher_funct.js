@@ -33,7 +33,7 @@ function show_loading_prog() {
 // this button click publishes a question to the students to answer
 $("#post-question").click(function () {
   document.getElementById("overlay").style.display = "block";
-  document.getElementById("show-loading").style.display = "block";
+  // document.getElementById("show-loading").style.display = "block";
   loading_progress = "0%";
   document.getElementById("overlay").innerHTML = loading_progress;
   $.post(
@@ -69,7 +69,7 @@ $("#post-question").click(function () {
             }
           }
           document.getElementById("overlay").style.display = "none";
-          document.getElementById("show-loading").style.display = "none";
+          // document.getElementById("show-loading").style.display = "none";
           // alert(response);
         }
       );
@@ -258,6 +258,9 @@ function show_edit_question_prompt(input_id) {
   document.getElementById("green-prompt").style.display = "block";
   document.getElementById("insert-title").innerHTML = "Edit Mode (coming soon)";
   question = arr_questions[arr_questions_id.indexOf(input_id.toString())];
+  grade = arr_grades[arr_questions_id.indexOf(input_id.toString())];
+  // question_id = arr_questions_id[arr_questions_id.indexOf(input_id.toString())];
+  curr_updating_hps = input_id;
   links =
     arr_collected_links[arr_questions_id.indexOf(input_id.toString())].split(
       "<&,&>"
@@ -274,9 +277,24 @@ function show_edit_question_prompt(input_id) {
   document.getElementById("green-prompt-content").innerHTML =
     "<span>" +
     question +
-    "</span><br><br><input type='text' id='rewrite-question' placeholder='Rewrite question here...'><br><br>Sources:<div style='width: 100%; border: 2px solid #379683'></div><br>" +
+    "</span><br><br>Change Current HPS:<input type='number' min='5' value='" +
+    grade +
+    "' id='updateid-hps'><button onclick='update_question_hps()'>UPDATE</button><br><br><input type='text' id='rewrite-question' placeholder='Rewrite question here...'><br><br>Sources:<div style='width: 100%; border: 2px solid #379683'></div><br>" +
     links_spanners +
     "<br><br><div style='width: 100%; border: 2px solid #379683'></div><button onclick='cancel_btn_function()'>CANCEL</button>";
+}
+
+function update_question_hps() {
+  new_hps = document.getElementById("updateid-hps").value;
+  curr_q_id = curr_updating_hps;
+  $.post(
+    current_hosting_url + "php/js-request/updating_hps.php",
+    { question_id: curr_q_id, hps: new_hps },
+    function (data) {
+      alert(data);
+      window.location = current_hosting_url + "pages/page_teacher.php";
+    }
+  );
 }
 
 function demonstration_page() {
